@@ -133,8 +133,8 @@ header .logo {
 }
 
 .navigations li {
-  word-wrap: none;
-  white-space: nowrap;
+  /* word-wrap: none;
+  white-space: nowrap; */
   text-align: center;
 }
 .navigations li:not(:last-child) {
