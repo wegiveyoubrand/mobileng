@@ -101,8 +101,7 @@ header .logo {
 }
 .navigations {
   position: relative;
-  width: 100vw;
-  padding-bottom: 0.25em;
+  width: 100%;
   /* overflow-x: auto; */
   scrollbar-width: 0 !important;
 }
@@ -115,13 +114,13 @@ header .logo {
   border-radius: 25px;
 }
 .navigations ul {
-  margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  overflow: hidden; 
+
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
   border-radius: 25px;
 }
 .navigations li:hover a {
