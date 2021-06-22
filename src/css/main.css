@@ -102,16 +102,16 @@ header .logo {
 .navigations {
   position: relative;
   width: 100%;
- z-index: 500;
+  z-index: 500;
   scrollbar-width: 0 !important;
 }
 .nav-modal {
   position: absolute;
   bottom: 80px;
-  padding: 2rem;
-  background: #eee;
+  padding: 20px;
+  background: var(--mtn);
   display: none;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 .navigations ul {
   display: grid;
@@ -135,23 +135,19 @@ header .logo {
   word-wrap: none;
   white-space: nowrap;
   text-align: center;
-}
-.navigations li:not(:last-child) {
- grid-gap: 20px;
+  grid-gap: 20px;
 }
 
 .navigations li a {
   text-decoration: none;
-  padding: 1rem;
+  padding: 10px;
 
-  color: var(--pri-dark);
-  /* padding-bottom: 0.5em; */
-  transition: 0.5s all ease-in-out;
-  height: 100%;
   display: grid;
   place-items: center;
-  font-family: poppins;
+  
+  color: var(--pri-dark);
   font-size: 0.85rem;
+  transition: 0.3s all ease-in-out;
 }
 
 .navigations li a:hover,
@@ -189,7 +185,7 @@ aside ul {
 
 aside li {
   height: 50px;
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 aside li a {
@@ -215,13 +211,14 @@ footer {
   position: fixed;
   bottom: 0;
   left: 50%;
-  
+
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 600px;transform: translateX(-50%);
+  max-width: 600px;
+  transform: translateX(-50%);
   height: 60px;
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 footer div {
