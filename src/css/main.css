@@ -35,7 +35,6 @@ body {
   top: 100px;
   padding: var(--default-margin) calc(var(--default-margin) * 2);
   height: 100%;
-  max-width: 400px;
   margin: 0 auto;
   /* top: 100px; */
 }
@@ -43,7 +42,7 @@ body {
 header {
   position: fixed;
   top: 0;
-  height: auto;
+  height: 60px;
   background: var(--white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   width: 100%;
@@ -162,7 +161,7 @@ header .logo {
 .aside {
   position: fixed;
   top: 60px;
-  /* top: 60px; */
+  bottom: 0;
   width: 100vw;
   height: calc(100vh - 60px);
   z-index: -1;
@@ -179,7 +178,6 @@ aside {
   transition: all 0.4s ease-in-out;
   transform: translateX(-100%);
   padding-bottom: 20px;
-
 }
 
 aside.show {
