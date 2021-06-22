@@ -107,12 +107,16 @@ header .logo {
 }
 .nav-modal {
   position: absolute;
-  bottom: 80px;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 20px;
-  background: var(--mtn);
+  width: 50%;
+  background: var(--etisalat);
+  color: var(--white);
   display: none;
-  /* border-radius: 25px; */
 }
+
 .navigations ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -123,7 +127,7 @@ header .logo {
 
   border-radius: 25px;
 }
-.navigations li:hover a {
+.navigations > li:hover a {
   background: #eee;
   border-radius: 15px;
 }
@@ -144,8 +148,8 @@ header .logo {
 
   display: grid;
   place-items: center;
-  
-  color: var(--pri-dark);
+
+  color: inherit;
   font-size: 0.85rem;
   transition: 0.3s all ease-in-out;
 }
