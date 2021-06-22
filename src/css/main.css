@@ -209,6 +209,7 @@ aside li:hover {
 .aside i {
   width: 1rem;
   margin-right: 2rem;
+  color: var(--mtn);
 }
 
 footer {
