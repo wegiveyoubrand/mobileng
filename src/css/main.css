@@ -117,7 +117,7 @@ header .logo {
 .navigations ul {
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   overflow: hidden; 
   background: rgba(255, 255, 255, 0.9);
@@ -133,8 +133,8 @@ header .logo {
 }
 
 .navigations li {
-  /* word-wrap: none;
-  white-space: nowrap; */
+  word-wrap: none;
+  white-space: nowrap;
   text-align: center;
 }
 .navigations li:not(:last-child) {
