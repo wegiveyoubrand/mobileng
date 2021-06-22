@@ -102,7 +102,7 @@ header .logo {
 .navigations {
   position: relative;
   width: 100%;
-  /* overflow-x: auto; */
+ z-index: 500;
   scrollbar-width: 0 !important;
 }
 .nav-modal {
@@ -120,7 +120,7 @@ header .logo {
 
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  
+
   border-radius: 25px;
 }
 .navigations li:hover a {
@@ -221,7 +221,6 @@ footer {
   width: 100%;
   max-width: 600px;transform: translateX(-50%);
   height: 60px;
-  z-index: 1000;
   padding: 0 2rem;
 }
 
