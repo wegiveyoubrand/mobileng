@@ -71,6 +71,9 @@ header {
   display: grid;
   place-items: center;
 }
+.user-account i{
+  font-size: .75rem;
+}
 .main-header * {
   cursor: pointer;
   transition: 0.4s all ease-in-out;
