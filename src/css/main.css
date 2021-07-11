@@ -68,11 +68,13 @@ header {
   background-color: var(--glo);
   color: #eee;
 
-  display: grid;
+  display: flex;
   place-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.user-account i{
-  font-size: .75rem;
+.user-account i {
+  font-size: 1.5rem;
 }
 .main-header * {
   cursor: pointer;
@@ -130,7 +132,7 @@ header .logo {
 
   border-radius: 25px;
 }
-.navigations > li:hover a {
+.navigations > li:hover {
   background: #eee;
   border-radius: 15px;
 }
@@ -142,16 +144,19 @@ header .logo {
   word-wrap: none;
   white-space: nowrap;
   text-align: center;
-  grid-gap: 20px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.navigations li a {
+.navigations li  {
   text-decoration: none;
   padding: 10px;
 
-  display: grid;
-  place-items: center;
-
+ 
   color: inherit;
   font-size: 0.85rem;
   transition: 0.3s all ease-in-out;
@@ -196,7 +201,7 @@ aside li {
 }
 
 aside li a {
-  display:flex;
+  display: flex;
   height: 100%;
   width: 100%;
   display: flex;
@@ -205,7 +210,7 @@ aside li a {
   color: var(--etisalat);
 }
 
-aside li a  i:nth-child(2){
+aside li a i:nth-child(2) {
   margin-left: auto;
 }
 
