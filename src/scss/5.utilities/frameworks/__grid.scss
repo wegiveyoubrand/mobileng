@@ -1,0 +1,11 @@
+/* ----- THE NEW GRID FRAMEWORK ---- */
+/* ---- THIS IS BUILT FROM SCRATCH, WITH A NEW UNDERSTANDING ON THE GRID SYSTEM FRAMEWORK, AND REALIGNING IT WITH THE REQUIREMENTS FOR THE DESIGN SYSTEM OF THE AFRICAN CULTURE ----*/
+@mixin grid() {
+  display: grid;
+}
+
+@mixin grid__fluid {
+  @include grid();
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
