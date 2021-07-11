@@ -1,11 +1,10 @@
-
 .data-service,
 .instant-recharge,
 .airtime2cash,
 .funds-transfer,
 .blog {
-  display: none;
-  transform: translateX(-100vw);
+  /* display: none; */
+  /* transform: translateX(-100vw); */
 }
 
 .data-service.active,
@@ -52,27 +51,29 @@ section button {
   background: var(--pri-green);
   color: #fff;
 }
-
+/* 
 .blog {
   margin-bottom: 70px;
-}
+} */
 
-.blog .post_details {
+/* .blog .post_details {
   display: flex;
   justify-content: space-between;
   padding: 0.25rem 1rem;
-}
+} */
+/* /
 .blog .card {
   position: relative;
   height: auto;
   width: 100%;
-  background: var(--pri-light);
+  background: var(--glo);
   box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
-}
-
+  color: #000;
+} */
+/* 
 .blog_image {
   width: 100%;
   height: 300px;
@@ -83,12 +84,8 @@ section button {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  /* border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; */
 }
-
 .blog-title {
-  /* font-weight: lighter; */
   text-transform: uppercase;
   font-size: 1.75em;
   margin-bottom: 0.5em;
@@ -110,16 +107,15 @@ section button {
 .card .blog_description p {
   line-height: 1.5;
   color: var(--accent-white);
-}
-
-
+} */
+/* 
 .home-section > section {
   height: 50vh;
   margin-bottom: 1rem;
   background: rgb(238, 241, 165);
 }
 
-.home-section > section:last-child{
+.home-section > section:last-child {
   margin-bottom: 4rem;
 }
 
@@ -127,5 +123,5 @@ section button {
   background: green;
   height: auto;
   font-size: 1.2rem;
-  padding: .5rem;
-}
+  padding: 0.5rem;
+} */

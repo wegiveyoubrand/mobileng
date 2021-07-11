@@ -32,7 +32,7 @@ body {
 
 .main-container {
   position: relative;
-  top: 100px;
+  top: 80px;
   padding: var(--default-margin) calc(var(--default-margin) * 2);
   height: 100%;
   margin: 0 auto;
@@ -254,7 +254,7 @@ aside li.active a {
   width: 1rem;
   margin-right: 25px;
   color: var(--glo);
-  opacity: .7;
+  opacity: 0.7;
 }
 
 footer {
@@ -280,4 +280,39 @@ footer div {
 .aside.open {
   opacity: 1;
   z-index: 1000;
+}
+
+.fieldset {
+  position: relative;
+  padding: 20px;
+  margin-top: 2rem;
+  border: 2px solid hsla(120, 70%, 15%, 15%);
+  border-radius: 5px;
+}
+
+.fieldset__title {
+  position: absolute;
+  top: -20px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.blog-section {
+  background-color: #f3f3f3;
+  margin-top: 20px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.blog-section h1 {
+  padding: 20px;
+}
+.blog {
+  background-color: #fff;
+  min-height: 200px;
+  padding: 20px;
 }
