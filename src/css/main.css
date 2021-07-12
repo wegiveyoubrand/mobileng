@@ -232,6 +232,12 @@ aside {
   color: #fff !important;
 
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.close-aside > i:hover {
+  box-shadow: 0 0 5px #fff;
+  transform: scale(0.95);
 }
 aside.show {
   transform: translateX(0);
