@@ -17,9 +17,14 @@ function toggleMenu() {
 const menu = document.querySelector(".aside");
 const menuItems = document.querySelector("aside");
 const menuBtns = document.querySelectorAll(".menu-toggle");
+const closesAside = document.querySelectorAll(".close-aside");
 let showMenu = false;
 
 // Initialize function
 menuBtns.forEach((menuBtn) => {
   menuBtn.addEventListener("click", toggleMenu);
+});
+
+closesAside.forEach((closeAside) => {
+  closeAside.addEventListener("click", toggleMenu);
 });
