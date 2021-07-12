@@ -36,7 +36,7 @@ body {
   padding: var(--default-margin) calc(var(--default-margin) * 2);
   height: 100%;
   margin: 0 auto;
-  /* top: 100px; */
+  margin-bottom: 10rem;
 }
 
 header {
@@ -127,6 +127,8 @@ header .logo {
   width: 100%;
   z-index: 500;
   scrollbar-width: 0 !important;
+margin-bottom: 10px;
+
 }
 .nav-modal {
   position: absolute;
@@ -138,16 +140,16 @@ header .logo {
   background: var(--etisalat);
   color: var(--white);
   display: none;
+  
 }
 
 .navigations ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
 
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
   border-radius: 25px;
 }
 .navigations > li:hover {
