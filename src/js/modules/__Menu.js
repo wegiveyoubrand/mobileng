@@ -28,3 +28,10 @@ menuBtns.forEach((menuBtn) => {
 closesAside.forEach((closeAside) => {
   closeAside.addEventListener("click", toggleMenu);
 });
+
+const toHomes = document.querySelectorAll(".toHome");
+toHomes.forEach((toHome) => {
+  toHome.addEventListener("click",()=>{
+    location.href=("/index.html")
+  });
+});

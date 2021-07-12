@@ -144,15 +144,13 @@ header .logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
+  overflow: hidden;
 
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   border-radius: 25px;
 }
-.navigations > li:hover {
-  background: #eee;
-  border-radius: 15px;
-}
+
 .navigations li:hover .nav-modal {
   display: block;
 }
@@ -178,9 +176,11 @@ header .logo {
   transition: 0.3s all ease-in-out;
 }
 
-.navigations li a:hover,
-.navigations li a.active {
+.navigations li:hover,
+.navigations li.active {
+  cursor: pointer;
   font-weight: bold;
+  background-color: hsla(120, 70%, 15%, 30%);
 }
 
 .aside {
@@ -335,10 +335,30 @@ footer div {
   margin-top: 20px;
 }
 .blogs {
+  padding: 20px;
+}
+
+.cards {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
+}
+.card {
+  min-height: 200px;
   padding: 20px;
+}
+
+.quick-apps {
+  grid-template-columns: repeat(2, 1fr);
+}
+.quick-app{
+  box-shadow: 0 0 19px hsla(120, 70%, 15%, 30%);
+  border-radius: 10px;
+}
+.quick-app-section  h1 {
+  margin-bottom: 2rem;
+  opacity: .3;
+  text-align: center;
 }
 
 .blog-section h1 {
@@ -346,8 +366,6 @@ footer div {
 }
 .blog {
   background-color: #fff;
-  min-height: 200px;
-  padding: 20px;
 }
 
 @media (min-width: 680px) {
