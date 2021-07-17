@@ -1,191 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mobileNg</title>
-    <link rel="stylesheet" href="../statics/fontawesome/css/all.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/home.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/home.css" />
+  </head>
 
-<body>
+  <body>
     <div class="outer-container">
-        <header>
-            <div class="main-header">
-                <i class="fa fa-bars menu-toggle"></i>
-                <p class="logo">mobileng</p>
-                <div class="my-account">
-                    <a href="./my-account.html"><i class="fa fa-user "></i></a>
-                </div>
+      <header>
+        <div class="main-header">
+          <i class="material-icons menu-toggle">menu</i>
+          <p class="logo toHome">mobileNg</p>
+          <div class="user">
+            <div class="user-account">
+              <i class="material-icons">person_outline</i>
             </div>
-
-            <section class="navigations">
-                <ul class="navigation">
-                    <li><a href="./data.html" class="active">Data</a></li>
-                    <li><a href="" >Airtime</a></li>
-                    <li><a href="./transfer.html" >Transfer</a></li>
-                    <li><a href="">Payments</a></li>
-                </ul>
-            </section>
-        </header>
-
-        <div class="aside">
-            <aside>
-                <hr>
-                <ul>
-                    <li><a href=""><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href=""><i class="fa fa-euro-sign"></i>Pricing</a></li>
-                    <li><a href=""><i class="fa fa-question"></i>FAQs</a></li>
-                    <li><a href=""><i class="fa fa-link"></i>API</a></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href=""><i class="fa fa-money-bill"></i> Earn</a></li>
-                    <li><a href=""><i class="fa fa-users"></i> Refer a friend</a></li>
-                    <li><a href=""><i class="fa fa-ad"></i> Create an ad!</a></li>
-                    <li><a href=""><i class="fa fa-envelope-open"></i>Send Bulk SMS</a></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href=""><i class="fa fa-frown"></i>Resolve query</a></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href=""><i class="fa fa-book"></i>Career</a></li>
-                    <li><a href=""><i class="fa fa-user"></i>Developers</a</li>
-                    <li><a href=""><i class="fa fa-phone-alt"></i>Contact</a></li>
-                </ul>
-                <hr>
-            </aside>
+            <span class="username"
+              >Okolo <i class="material-icons">expand_more</i></span
+            >
+          </div>
         </div>
+      </header>
 
-        <!-- <div class="main-container">
-            <section class="data-services">
-                <ul class="data-service">
-                    <li>Buy Data <i class="fa fa-plus"></i></li>
-                    <li>Share Data <i class="fa fa-plus"></i></li>
-                    <li>Gift a Friend <i class="fa fa-plus"></i></li>
-                </ul>
-            </section>
+      <div class="aside">
+        <aside>
+          <hr />
+          <ul>
+            <li class="active">
+              <a href=""><i class="material-icons">home</i>Dashboard </a>
+            </li>
 
-            <section class="instant-recharge ">
-                <div class="">
-                    <form action="">
-                        <input type="tel" placeholder="Tel. Number">
-                        <select name="" id="" disabled>
-                            <option value="">MTN</option>
-                            <option value="">MTN</option>
-                            <option value="">MTN</option>
-                        </select>
-                        <input type="text" placeholder="Amount">
-                        <button type="submit">Recharge
-                        </button>
-                    </form>
-                </div>
-            </section>
-
-           
-
-            <section class="blog">
-                <div class="cards">
-                    <div class="card">
-                        <div class="user">
-                            <i class="fa fa-user"></i>
-                        </div>
-                        <div class="blog_description">
-                            <h1 class="blog-title">Data Saving</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt architecto...</p>
-                        </div>
-                        <div class="blog_image">
-                            <img src="./statics/images/image1.jpg" alt="">
-                        </div>
-                        <div class="post_details">
-                            <div class="">
-                                <i class="fa fa-calendar"></i>
-                            </div>
-                            <div class="">
-                                <i class="fa fa-book"></i>
-                            </div>
-                            <div class="">
-                                <i class="fa fa-hands"></i>
-                            </div>
-                            
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="user">
-                            <i class="fa fa-user"></i>
-                        </div>
-                        <div class="blog_description">
-                            <h1 class="blog-title">Iphone Crashes 2020</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Nobis, officiis....</p>
-                        </div>
-                        <div class="blog_image">
-                            <img src="./statics/images/dynasty.png" alt="">
-                        </div>
-
-                        <div class="post_details">
-                            <div class="">
-                                <i class="fa fa-calendar"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="user">
-                            <i class="fa fa-user"></i>
-                        </div>
-                        <div class="blog_description">
-                            <h1 class="blog-title">MTN Launches</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt architecto and
-                                npogfkrgkfnb fbkndfobnlzbk knb znkjn
-                                ...</p>
-                        </div>
-                        <div class="blog_image"></div>
-
-                    </div>
-
-                    <div class="card">
-                        <div class="user">
-                            <i class="fa fa-user"></i>
-                        </div>
-                        <div class="blog_description">
-                            <h1 class="blog-title">Iphone Crash 2020</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt architecto
-                                sit
-                                vitae laudantium...</p>
-                        </div>
-                        <div class="blog_image"></div>
-
-                    </div>
-
-                    <button type="submit"><i class="fa fa-plus"></i> Write a Post</button>
-
-            </section>
-        -->
+            <li>
+              <a href="https://wa.link/x4w8lv"
+                ><i class="material-icons">language</i> Top-up Data</a
+              >
+            </li>
+            <li>
+              <a href="./services/bulksms.html"
+                ><i class="material-icons">sim_card</i>Airtime Recharge</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="material-icons">receipt_long</i>Bills and
+                Subscriptions</a
+              >
+            </li>
+          </ul>
+          <hr />
+          <ul>
+            <li>
+              <a href="./services/bulksms.html"
+                ><i class="material-icons">note_alt</i>Send Bulk SMS</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="material-icons">account_balance_wallet</i>Create
+                Ads!</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="material-icons">psychology</i>Refer and Get Paid</a
+              >
+            </li>
+          </ul>
+          <hr />
+          <ul>
+            <li>
+              <a href=""><i class="material-icons">history</i>History</a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="material-icons">help_center</i>Resolve issues</a
+              >
+            </li>
+          </ul>
+          <hr />
+        </aside>
+        <div class="close-aside">
+          <i class="material-icons">close</i>
         </div>
+      </div>
 
+      <main class="main-container">
+        <h2>Welcome, <span>User</span></h2>
+        <iframe
+          width="350"
+          height="430"
+          allow="microphone;"
+          src="https://console.dialogflow.com/api-client/demo/embedded/762e45d4-8ff5-4b0a-9b87-f42d2d4e0931"
+        ></iframe>
+      </main>
 
-        <footer>
-            <div class=""><i class="fa fa-headset"></i>
-                <p>Customer Care</p>
-            </div>
-            <!-- <div class="">
-                <i class="fa fa-question"></i>
-                <p>FAQs</p>
-            </div> -->
-            <div class=""><i class="fa fa-book"></i>
-                <p>Read Blog</p>
-            </div>
-        </footer>
+      <footer>
+        <section class="navigations">
+          <ul class="navigation">
+            <li
+              class="menu-toggle"
+              onclick="location.href='./services/quickApps.html'"
+            >
+              <i class="material-icons">favorite</i> Quick Apps
+            </li>
+
+            <li><i class="material-icons">support_agent</i> Get in Touch</li>
+          </ul>
+        </section>
+      </footer>
     </div>
-
-    <script src="../js/main.js"></script>
-
-</body>
-
+    <script src="./src/js/main.js" type="module"></script>
+  </body>
 </html>
