@@ -93,12 +93,47 @@
 
       <main class="main-container">
         <h2>Welcome, <span>User</span></h2>
-        <iframe
-          width="350"
-          height="430"
-          allow="microphone;"
-          src="https://console.dialogflow.com/api-client/demo/embedded/762e45d4-8ff5-4b0a-9b87-f42d2d4e0931"
-        ></iframe>
+        <div class="sections cards">
+          <div class="section card">
+            <h2>1. Select Network</h2>
+            <div class="form-group">
+              <form action="">
+                <label for=""> </label>
+                <select name="" id="">
+                  <option value="">MTN</option>
+                  <option value="">Glo</option>
+                  <option value="">Airtel</option>
+                  <option value="">Etisalat</option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="section card">
+            <h2>2. Select Amount</h2>
+            <div class="form-group">
+              <label for=""></label>
+              <form action="">
+                <select name="" id="">
+                  <option value="">1GB @ #300 - Daily</option>
+                  <option value="">1GB @ #500 - 2 Days</option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="section card">
+            <h2>3. Enter Recipient</h2>
+
+            <div class="form-group">
+              <form action="">
+                <label for=""></label>
+                <input type="text" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="submit-action">
+          <button type="submit">Send Request</button>
+        </div>
       </main>
 
       <footer>
@@ -116,6 +151,6 @@
         </section>
       </footer>
     </div>
-    <script src="./src/js/main.js" type="module"></script>
+    <script src="../src/js/main.js" type="module"></script>
   </body>
 </html>
